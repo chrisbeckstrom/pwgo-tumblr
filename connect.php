@@ -12,8 +12,8 @@ require_once('tumblroauth/tumblroauth.php');
 
 // Define the needed keys
 // these are the keys for CB's Piwigo-Tumblr "app"
-$consumer_key = "AFJVLGApTvKsBWnu03WSVQ7nYhcD2Tb59hZSwaLziQ53LsUR6k";
-$consumer_secret = "8P56fbTO5Wvi8qNmat7bf8psJ3g8xhW30YEXHrK4I7Wc7XwSCH";
+$consumer_key = $yourconsumerkey;
+$consumer_secret = $yourconsumersecret;
 
 // The callback URL is the script that gets called after the user authenticates with tumblr
 // In this example, it would be the included callback.php
